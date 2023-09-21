@@ -33,3 +33,6 @@ ui:
  # Registers a Kubernetes Service for the Consul UI as a LoadBalancer.
  service:
    type: LoadBalancer
+   
+terminatingGateways:
+  enabled: true
