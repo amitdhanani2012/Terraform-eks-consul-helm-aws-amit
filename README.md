@@ -2,6 +2,6 @@
 2. 3 availability zone on us-east-1
 3. 1 vpc 3 public and private subnets
 4. Add ons on eks - ebs csi driver and vpc cni
-5. Helm provider to install consul helm chart
+5. Helm provider to install consul helm chart - template directory has values.yaml for helm. apiGateway, Consul ui, mesh gateway etc enabled. you can change it to enable disable certain thing.
 6. Terraform cloud with aws-amit organization amit-aws-test1 workspace, code run on vm and state file is saved on Terraform cloud
 
